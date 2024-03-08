@@ -4,10 +4,18 @@
  */
 package core.megaferia;
 
+import core.person.Gerente;
+
 /**
  *
  * @author merizaldej
  */
 public class Editorial {
+    
+    private String nit;
+    private String nombre;
+    private String direccion;
+    private Gerente gerente;
+    
     
 }
