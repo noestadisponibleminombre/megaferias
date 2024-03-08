@@ -1,12 +1,13 @@
 
-package megaferias;
+package core.megaferia;
+
+import java.util.ArrayList;
 
 
 public class Megaferias {
 
-
-    public static void main(String[] args) {
-        System.out.println("Hola messi");
-    }
+    private ArrayList<Stand> stand;
+    private ArrayList<Editorial> editoriales;
+    
     
 }
