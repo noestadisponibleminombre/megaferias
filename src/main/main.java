@@ -10,8 +10,11 @@ package main;
  */
 public class main {
     public static void main(String[] args) {
+      
+        System.out.println("This is a conflict");
         int a = 5;
         int b = 10;
         System.out.println((a << 1) == b);
+
     }
 }
