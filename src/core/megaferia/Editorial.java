@@ -16,6 +16,13 @@ public class Editorial {
     private String nombre;
     private String direccion;
     private Gerente gerente;
+
+    public Editorial(String nit, String nombre, String direccion, Gerente gerente) {
+        this.nit = nit;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.gerente = gerente;
+    }
     
     
 }
